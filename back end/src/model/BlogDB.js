@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/blog-app');
+// mongoose.connect('mongodb+srv://navi:N1kobme0a4RSdnPW@cluster0.de7kc.mongodb.net/test');
 const Schema = mongoose.Schema;
 
 var articleSchema = new Schema({ //Schema is used to structurize the DB
