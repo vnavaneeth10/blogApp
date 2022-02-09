@@ -1,0 +1,24 @@
+.home{
+    font-family: 'Roboto';
+    font-style: italic;
+}   
+
+#head{
+    color:whitesmoke ;
+    text-align: center;
+    margin-top: 20px;
+    border-color: blue;
+    
+}
+.home p{
+    margin: 70px 100px 75px 100px;
+    text-align: justify;
+    color: aliceblue;
+    font-size: medium;
+}
+
+
+
+
+
+
