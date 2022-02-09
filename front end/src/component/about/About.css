@@ -1,5 +1,6 @@
-body{
-    background-image: url('about.jpg');
+*{
+    /* background-image: url('about.jpg');
+    background-image: ; */
 }
 
 #pic{
