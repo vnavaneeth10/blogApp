@@ -24,7 +24,7 @@ function Signup(props) {
           Login
          <span className="underline"></span>
          </button>
-<form className="form form-login">
+    <form className="form form-login">
 <fieldset>
   <legend>Please, enter your email and password for login.</legend>
   <div className="input-block">
@@ -37,25 +37,25 @@ function Signup(props) {
   </div>
 </fieldset>
 <button type="submit" className="btn-login">Login</button>
-</form>
-</div>
-<div className="form-wrapper">
-<button type="button" className="switcher switcher-signup">
-Sign Up
-<span className="underline"></span>
-</button>
-<form className="form form-signup">
-<fieldset>
-  <legend>Please, enter your email, password and password confirmation for sign up.</legend>
-  <div className="input-block">
+    </form>
+    </div>
+    <div className="form-wrapper">
+    <button type="button" className="switcher switcher-signup">
+    Sign Up
+    <span className="underline"></span>
+    </button>
+    <form className="form form-signup">
+    <fieldset>
+    <legend>Please, enter your email, password and password confirmation for sign up.</legend>
+    <div className="input-block">
     <label for="signup-email">User name</label>
     <input id="signup-email" type="text" required />
-  </div>
-  <div className="input-block">
+    </div>
+    <div className="input-block">
     <label for="signup-password">Password</label>
     <input id="signup-password" type="password" required />
-  </div>
-  <div className="input-block">
+    </div>
+    <div className="input-block">
     <label for="signup-password-confirm">E-mail</label>
     <input id="signup-password-confirm" type="email" required />
     </div>
