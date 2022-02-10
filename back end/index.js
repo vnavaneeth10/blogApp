@@ -1,11 +1,19 @@
 const express = require('express'); //importing express
 const cors = require('cors');
 const ArticleInfo = require('./src/model/BlogDB'); // importing mongodb
+const path = require('path');
 
 const app = express(); // creating a new object for express as app //object initialization
 app.use(cors());
 app.use(express.urlencoded({ extended: true })); //For POST Method
 app.use(express.json());
+app.use(express.static('./build/'));
+
+app.get(’/’, function(req, res) => {
+    res.sendFile(path.join( 
+   ./build/index.html')
+   });
+   
 
 //Basic article fetch route
 app.get('/api/article/:name', (req, res) => {// to fetch general data
