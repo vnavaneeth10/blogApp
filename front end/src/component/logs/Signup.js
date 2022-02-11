@@ -1,6 +1,6 @@
 import React from 'react';
 import '../logs/Signup.css';
-import Validation from './Validation';
+// import Validation from './Validation';
 
 function Signup(props) {
 
