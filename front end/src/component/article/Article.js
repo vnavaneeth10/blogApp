@@ -24,7 +24,7 @@ function Article(props) {
 
     //Backend connection API fetch
     async function fetchAPI() {
-       const response = await fetch(`http://localhost:5001/api/article/${name}`);
+       const response = await fetch(`/api/article/${name}`);
        const body = await response.json();
        console.log(body);
        setarticleData(body);

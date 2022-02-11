@@ -9,10 +9,7 @@ app.use(express.urlencoded({ extended: true })); //For POST Method
 app.use(express.json());
 app.use(express.static('./build/'));
 
-app.get(’/’, function(req, res) => {
-    res.sendFile(path.join( 
-   ./build/index.html')
-   });
+
    
 
 //Basic article fetch route
@@ -58,6 +55,12 @@ app.post('/api/article/:name/comments', (req, res) => {
        
        })
 })
+
+app.get('/*', function(req, res)  {
+    res.sendFile(path.join(__dirname + '/build/index.html'));
+   
+   });
+   
 
 
 
